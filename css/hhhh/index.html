@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Разделение классов</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid gray; /* Ограничивающий контейнер */
+            padding: 10px;
+        }
+
+        .class1, .class2 {
+            padding: 10px;
+            border: 1px solid black; /* Границы классов */
+            margin: 0 10px; /* Отступы между классами */
+        }
+
+        .line {
+        width: 0.5px;
+        height: 250px;
+        margin: 0 0;
+        background-color: #ccc;
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="class1">Класс 1</div>
+        <hr class="line"></hr>
+        <div class="class2">Класс 2</div>
+    </div>
+</body>
+</html>

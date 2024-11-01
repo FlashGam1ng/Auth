@@ -1,0 +1,38 @@
+.page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(54, 54, 54);
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(75, 75, 75);
+    border-radius: 15px;
+    box-shadow: 15px 15px 10px rgba(34, 34, 34, 0.7);
+}
+
+.line {
+    width: 0.5px;
+    height: 250px;
+    margin: 0 0;
+    background-color: #ccc;
+}
+
+.content-container {
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(75, 75, 75);
+    border-radius: 15px;
+    box-shadow: 0 0 1px 1px rgb(202, 202, 202);
+}
+
+
